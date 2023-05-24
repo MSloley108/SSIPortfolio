@@ -1,0 +1,243 @@
+/* header and nav */
+
+html {
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Tilt Neon', cursive;
+}
+
+h2, h3, p {
+    font-family: 'Roboto Mono', monospace;
+}
+
+a {
+    text-decoration: none;
+}
+.logo {
+    height: 3rem;
+    width: 2rem;
+    border: none;
+    border-radius: 0;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #14FFA1;
+    position: fixed;
+    width:100%;
+    margin-top: -18px;
+
+}
+
+.header {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+.brand {
+    display: inline-flex;
+}
+
+.logo {
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+
+header .site-header-right {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.site-header-right li {
+    display: inline;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    padding-right: 1rem;
+}
+
+.site-header-right a {
+    padding: 6px;
+}
+
+.site-header-right a:link {
+    color:black;
+}
+
+.site-header-right a:visited {
+    color: black;
+}
+
+.site-header-right a:hover {
+    border: 1px solid #45856B;
+    border-radius: 20px;
+}
+
+.site-header-right a:active {
+    color: white;
+    background-color: #0A8051;
+    border: 1px solid white;
+}
+
+/* Banner */
+
+.banner {
+    display: grid;
+    grid-template: repeat(5, 1fr) / repeat(10, 1fr);
+    background-image: url(./images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+.banner h2,h3 {
+    text-align: center;
+    color: black;
+    background-color: hsla(156, 100%, 54%, 60%);
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+.banner h2:hover,h3:hover {
+    background-color: hsla(156, 100%, 54%, 100%);
+    transition: 1s;
+}
+
+.banner h2 {
+    grid-area: 2 / 5/ 3/ span 2;
+}
+
+.banner h3 {
+    grid-area: 4 / 4/ 3/ span 4;
+}
+
+/* Main */
+
+.main h2{
+   text-align: center;
+   color: #0A8051;
+}
+
+.main p {
+    text-align: center;
+}
+
+/* Mission */
+
+.mission {
+    margin: 2rem 10rem;
+    padding: 0 1rem;
+    border: 3px solid #0A8051;
+    border-radius: 20px;
+    background-color: hsla(156, 100%, 54%);
+}
+
+.mission h2 {
+    color: black;
+}
+
+/* gallery */
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.img-container {
+    text-align: center;
+    padding: 5px;
+}
+
+.img-container h3:hover {
+    background-color: #45856B;
+}
+
+img {
+    height: 18.75rem;
+    width: 28.125rem;
+    border: 6px solid #45856B;
+    border-radius: 20px;
+}
+
+/* team */
+
+.team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #14FFA1;
+    padding-bottom: 2rem;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.team h2 {
+    color: black;
+}
+
+.bio {
+    display: inline-flex;
+    flex-direction: row;
+    margin: 0 45rem;
+    padding: 0 2rem;
+    border: 3px solid #45856B;
+    background-color: ghostwhite;
+    margin-top: 0.5rem;
+    min-width: 300px; 
+}
+
+@media only screen and (min-width: 1000px) {
+    .bio {
+        margin: 0 30rem;
+    }
+}
+
+.portrait {
+    margin-bottom: 1.5rem;;
+}
+
+.portrait img {
+    min-height: 28.125rem;
+}
+
+/* footer */
+
+.foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.foot img {
+    height:5rem;
+    width: 3.2rem;
+    border: none;
+    padding-top: 1rem;
+}
+
+.foot p {
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.contact {
+    font-weight: bold;
+}
