@@ -100,6 +100,7 @@ header .site-header-right {
     justify-content: center;
     height: 350px;
     padding-top: 60px;
+    margin-right: 2px;
 }
 
 .banner h2,h3 {
