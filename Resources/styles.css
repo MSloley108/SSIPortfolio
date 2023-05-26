@@ -172,6 +172,16 @@ img {
     border-radius: 20px;
 }
 
+.enlarged {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    width: 80%;
+    height: auto;
+}
+
 /* team */
 
 .team {
