@@ -211,6 +211,11 @@ img {
     min-width: 300px; 
 }
 
+#teampic:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s linear 0s;
+}
+
 @media only screen and (min-width: 1000px) {
     .bio {
         margin: 0 30rem;
