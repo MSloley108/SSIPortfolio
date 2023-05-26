@@ -28,7 +28,7 @@ header {
     flex-wrap: wrap;
     background-color: #14FFA1;
     position: fixed;
-    width:100%;
+    width:99.05%;
     margin-top: -18px;
 
 }
@@ -38,13 +38,14 @@ header {
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     border-bottom: 2px solid black;
 }
 
 .brand {
     display: inline-flex;
+    margin-left: 16px;;
 }
 
 .logo {
@@ -91,12 +92,14 @@ header .site-header-right {
 
 .banner {
     display: grid;
-    grid-template: repeat(5, 1fr) / repeat(10, 1fr);
+    grid-template: repeat(6, 1fr) / repeat(10, 1fr);
     background-image: url(./images/banner.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     justify-content: center;
+    height: 350px;
+    padding-top: 60px;
 }
 
 .banner h2,h3 {
@@ -113,11 +116,12 @@ header .site-header-right {
 }
 
 .banner h2 {
-    grid-area: 2 / 5/ 3/ span 2;
+    grid-area: 3 / 5/ 3/ span 2;
 }
 
 .banner h3 {
-    grid-area: 4 / 4/ 3/ span 4;
+    grid-area: 4 / 4/ 4/ span 4;
+    padding-top: 19px;
 }
 
 /* Main */
