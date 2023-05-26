@@ -1,0 +1,122 @@
+html {
+    font-size: 16px;
+    width: 100%;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Tilt Neon', cursive;
+}
+
+h2, h3, p {
+    font-family: 'Roboto Mono', monospace;
+}
+
+a {
+    text-decoration: none;
+}
+.logo {
+    height: 3rem;
+    width: 2rem;
+    border: none;
+    border-radius: 0;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #14FFA1;
+    position: fixed;
+    width:100%;
+    margin-top: -20px;
+    margin-left: -8px;
+}
+
+.header {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+.brand {
+    display: inline-flex;
+}
+
+.logo {
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+
+header .site-header-right {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.site-header-right li {
+    display: inline;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    padding-right: 1rem;
+}
+
+.site-header-right a {
+    padding: 6px;
+}
+
+.site-header-right a:link {
+    color:black;
+}
+
+.site-header-right a:visited {
+    color: black;
+}
+
+.site-header-right a:hover {
+    border: 1px solid #45856B;
+    border-radius: 20px;
+}
+
+.site-header-right a:active {
+    color: white;
+    background-color: #0A8051;
+    border: 1px solid white;
+}
+
+#contact {
+    padding-top: 76px;
+}
+
+footer {
+    margin: auto;
+    padding: 10px;
+}
+
+.foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 98%;
+}
+
+.foot img {
+    height:5rem;
+    width: 3.2rem;
+    border: none;
+    padding-top: 1rem;
+}
+
+.foot p {
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.contact {
+    font-weight: bold;
+}
